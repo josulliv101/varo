@@ -1,0 +1,27 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.App {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+.Main {
+  background-color: white;
+  color: #282c34;
+  padding: 20px;
+}
+
+/* TODO add real css reset */
+h1, h2, h3, h4, h5, h6 {
+  margin:  0;
+}

@@ -1,0 +1,11 @@
+.movie-list-item {
+
+}
+
+.movie-list-item .movie-header--title {
+  margin-top: 10px;
+}
+
+.movie-list-item.movie-list-item--inactive {
+  cursor: default;
+}

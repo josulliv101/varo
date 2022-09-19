@@ -1,0 +1,21 @@
+.stack {
+  opacity: .8;
+}
+
+.stack > :not(style) ~ :not(style) {
+  margin-top: 16px;
+  margin-inline: 0px;
+  margin-bottom: 0px;
+}
+
+.stack.xs > :not(style) ~ :not(style) {
+  margin-top: 4px;
+}
+
+.stack.sm > :not(style) ~ :not(style) {
+  margin-top: 8px;
+}
+
+.stack.lg > :not(style) ~ :not(style) {
+  margin-top: 24px;
+}

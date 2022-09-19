@@ -1,0 +1,30 @@
+.square {
+  transition: width 300ms;
+  width: 80px;
+}
+
+.square.xs {
+  width: 20px;
+}
+
+.square.sm {
+  width: 60px;
+}
+
+.square.lg {
+  width: 100px;
+}
+
+.square.full {
+  width: 100%;
+}
+
+.square > div {
+  background-color: #eee;
+  background-position: 50% 16%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width:  60px;
+  padding-bottom: 100%;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.hstack {
+  align-items: flex-start;
+  display: flex;
+}
+
+.hstack > :not(style) ~ :not(style) {
+  margin-top: 0px;
+  margin-inline: 16px 0px;
+  margin-bottom: 0px;
+}
+
+.hstack.xs > :not(style) ~ :not(style) {
+  margin-inline: 2px 0px;
+}
+
+.hstack.sm > :not(style) ~ :not(style) {
+  margin-inline: 8px 0px;
+}
+
+.hstack.lg > :not(style) ~ :not(style) {
+  margin-inline: 24px 0px;
+}

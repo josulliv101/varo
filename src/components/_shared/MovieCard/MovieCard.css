@@ -1,0 +1,56 @@
+.movie-card {
+
+}
+
+.movie-card .card__face--front .movie-header {
+  padding: 20px;
+}
+
+.movie-card .card__face--front .movie-card--fav-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: opacity 300ms;
+}
+
+.movie-card .card__face--front .movie-card--fav-btn:hover {
+  opacity: .6;
+}
+
+.movie-card .card__face--front .movie-card--fav-btn:focus-visible {
+  outline: none;
+  border: 1px blue solid;
+}
+
+.movie-card .card__face--front .movie-card--fav-btn[aria-pressed="true"] {
+  border-bottom: 1px #fff solid;
+}
+
+.movie-card .card__face--back .movie-cast {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 40px);
+}
+
+.movie-card .card__face--back .movie-extended-details {
+  margin-top:  24px;
+}
+.movie-card .card__face--back .movie-cast--subhead {
+  font-weight: 400;
+}
+
+.movie-card .card__face--back .movie-extended-details--descr {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 130%;
+  font-size: 15px;
+}
+
+.movie-card .movie-header--rating,
+.movie-card .movie-header--genres,
+.movie-card .card__face--back .movie-cast--subhead,
+.movie-card .card__face--front .movie-card--fav-btn {
+  opacity: .9;
+}

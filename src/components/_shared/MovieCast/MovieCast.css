@@ -1,0 +1,29 @@
+.movie-cast {
+  opacity: 0;
+  height: 44px;
+  transition: opacity 2s;
+}
+
+.movie-cast.movie-cast--loaded {
+  opacity: 1;
+}
+
+.movie-cast .movie-cast--subhead {
+  margin-bottom: 8px;
+}
+
+.movie-cast .movie-cast--name {
+  white-space: nowrap;
+}
+
+.movie-cast .movie-cast--people {
+  overflow: scroll;
+}
+
+.movie-cast .movie-cast--people .hstack {
+  align-items: center;
+}
+
+.movie-cast .movie-cast--people .square > div {
+  min-width: 20px;
+}
